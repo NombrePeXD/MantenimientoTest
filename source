@@ -3,7 +3,7 @@ local Window = Library.CreateLib("NCTP mantenimiento", "BloodTheme")
 
 -- MAIN
 local Main = Window:NewTab("inicio")
-local MainSection = Main:NewSection("el script estara cerrado hasta nuevo aviso")
+local MainSection = Main:NewSection("el script estara cerrado hasta nuevo avisoo")
 
 --LOCAL PLAYER
 local Player = Window:NewTab("mas info")
