@@ -6,8 +6,8 @@ local Main = Window:NewTab("inicio")
 local MainSection = Main:NewSection("el script estara cerrado hasta nuevo aviso")
 
 --LOCAL PLAYER
-local Player = Window:NewTab("velocidad y Salto")
-local PlayerSection = Player:NewSection("jugador")
+local Player = Window:NewTab("mas info")
+local PlayerSection = Player:NewSection("el scripteo es muy dificil y me estoy rindiento poco a poco asi q posiblemente lo dejare hasta aca")
 
 PlayerSection:NewSlider("Velocidad", "cambia la velocidad alv", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
