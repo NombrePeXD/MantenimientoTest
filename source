@@ -9,5 +9,5 @@ local MainSection = Main:NewSection("el script estara cerrado hasta nuevo aviso"
 local Player = Window:NewTab("mas info")
 local PlayerSection = Player:NewSection("el scripteo es muy dificil y me estoy rindiento")
 local PlayerSection = Player:NewSection("asi que posiblemente lo dejare")
-local PlayerSection = Player:NewSection("hasta aca asi q")
-Player:NewSection("yo soy nombre_pe y nos vemos a la proxima")
+local PlayerSection = Player:NewSection("hasta aca asi q yo soy nombre_pe")
+Player:NewSection("y nos vemos a la proxima chau")
