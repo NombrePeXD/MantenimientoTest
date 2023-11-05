@@ -4,9 +4,11 @@ local Window = Library.CreateLib("NCTP mantenimiento", "BloodTheme")
 
 -- MAIN
 local Main = Window:NewTab("inicio")
-local MainSection = Tab:NewSection("El script estara cerrado hasta nuevo aviso en el discord")
+local MainSection = Tab:NewSection("El script estara cerrado hasta nuevo aviso")
+end)
 
 -- SEGUNDO
 local Segundo = Window:NewTab("razones")
 local SegundoSection = Tab:NewSection("el scripteo es muy dificil y me estoy rindiento poco a poco asi q lo dejare hasta aca")
 local Segundo = Tab:NewSection("asi q yo soy nombre_pe y nos vemos a la proxima chau")
+end)
