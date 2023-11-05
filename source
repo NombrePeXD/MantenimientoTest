@@ -3,4 +3,10 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("NCTP mantenimiento", "BloodTheme")
 
 -- MAIN
-local Main = Window:NewTab("XD")
+local Main = Window:NewTab("inicio")
+local Main = Tab:NewSection("El script estara cerrado hasta nuevo aviso en el discord")
+
+-- SEGUNDO
+local Segundo = Window:NewTab("razones")
+local Segundo = Tab:NewSection("el scripteo es muy dificil y me estoy rindiento poco a poco asi q lo dejare hasta aca")
+local Segundo = Tab:NewSection("asi q yo soy nombre_pe y nos vemos a la proxima chau")
