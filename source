@@ -5,32 +5,6 @@ local Window = Library.CreateLib("NCTP mantenimiento", "BloodTheme")
 local Main = Window:NewTab("inicio")
 local MainSection = Main:NewSection("el script estara cerrado hasta nuevo aviso")
 
-
-MainSection:NewButton("ejecutar", "Es una gui para poner ids globales", function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/hx9N6LHT'))()
-end)
-
-local MainSection = Main:NewSection("FE Hex Gui (esto esta muy OP xdd)")
-
-
-MainSection:NewButton("ejecutar", "Es una gui de comandos con remotes", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/itzyaboyluq/projectligma/main/01j813hbqnssnabc.lua"))()
-end)
-
-local MainSection = Main:NewSection("Infinite Yield (creo q todos ya sabes de que es)")
-
-
-MainSection:NewButton("ejecutar", "Es una gui de admin o algo asi", function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
-end)
-
-local MainSection = Main:NewSection("Ro-Xploit 6.0 (funciona en juegos con FE)")
-
-
-MainSection:NewButton("ejecutar", "Es para destruir juegos con FE", function()
-    loadstring(game:GetObjects("rbxassetid://364364477")[1].Source)()
-end)
-
 --LOCAL PLAYER
 local Player = Window:NewTab("velocidad y Salto")
 local PlayerSection = Player:NewSection("jugador")
