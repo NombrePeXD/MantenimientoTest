@@ -1,5 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("Nombre_pe Hub v2.0 TEAM PERU ON TOP!!!", "BloodTheme")
+local Window = Library.CreateLib("NCTP mantenimiento", "BloodTheme")
 
+local Section = Tab:NewSection("Section Name")
 
