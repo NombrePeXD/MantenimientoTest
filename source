@@ -3,4 +3,4 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("NCTP mantenimiento", "BloodTheme")
 
 -- MAIN
-local Main = Tab:NewSection("Section Name")
+local Tab = Window:NewTab("TabName")
